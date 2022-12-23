@@ -1,0 +1,48 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.App-Container {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+  }
+  
+  .modal input[type='text'] {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .modal input[type='checkbox'] {
+    margin-bottom: 10px;
+  }
+  
+  .modal button {
+    cursor: pointer;
+    background-color: lightgray;
+    border: none;
+    padding: 8px 12px;
+    font-size: 14px;
+    margin-right: 10px;
+  }
+  
+  .modal button:hover {
+    background-color: gray;
+    color: white;
+  }
+  

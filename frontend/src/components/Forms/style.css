@@ -1,0 +1,37 @@
+.Forms {
+    width: 60%;
+    margin: 2rem auto;
+}
+
+.todo-form{
+    margin: auto;
+   
+    display: flex;
+    justify-content: center;
+}
+
+.input-tag {
+    width: 350px;
+    height: 1.75rem;
+    border-radius: 25px;
+    text-indent: 5px;
+}
+
+.label {
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.label > input {
+    width: 2rem;
+}
+
+.todo-btn {
+    height: 1.75rem;
+    border-radius: 20px;
+    margin-top: 2.5px;
+    text-indent: .1spx;
+}
